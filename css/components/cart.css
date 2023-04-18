@@ -1,0 +1,22 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.cart .table-cart {
+  width: 100%;
+}
+
+.cart .table-cart .title {
+  font-weight: 500;
+}
+
+.cart .table-cart img {
+  width: 100px;
+  height: 100%;
+}
+
+.cart #table-cart .cart-product-name {
+}

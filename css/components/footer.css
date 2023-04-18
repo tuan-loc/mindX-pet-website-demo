@@ -1,0 +1,65 @@
+.footer .main-footer {
+  padding: 50px 0;
+  border-bottom: 1px solid #000;
+}
+
+.footer .line-footer {
+  height: 1px;
+  width: 40px;
+  background-color: #000;
+  margin: 15px 0 30px 0;
+}
+
+.footer .main-footer .social a {
+  color: #000;
+  margin-right: 15px;
+  transition: all 0.3s;
+}
+
+.footer .main-footer .social a:hover {
+  color: #f15e42;
+}
+
+.footer .main-footer .social a i {
+  font-size: 18px;
+}
+
+.footer .main-footer h2.title {
+  font-size: 18px;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+ul li a {
+  color: #000;
+  transition: all 0.3s;
+}
+
+ul li a:hover {
+  color: #f15e42;
+}
+
+.footer .sub-footer {
+  padding: 15px 0;
+}
+
+.footer .sub-footer .copyright {
+  font-style: italic;
+  margin: 0;
+}
+
+.footer .sub-footer .payment a {
+  color: #000;
+  transition: all 0.3s;
+  margin-left: 5px;
+}
+
+.footer .sub-footer .payment a:hover {
+  color: #f15e42;
+}
+
+.footer .sub-footer .payment a i {
+  font-size: 32px;
+}

@@ -1,0 +1,31 @@
+.breadcrumb {
+  background-image: url(../../images/breacrumb.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 100px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.breadcrumb h2.title {
+  font-size: 48px;
+}
+
+.breadcrumb .breadcrumb-content {
+  font-weight: 500;
+}
+
+.breadcrumb .breadcrumb-content i {
+  font-size: 12px;
+}
+
+.breadcrumb .breadcrumb-content a {
+  color: #000;
+  margin-right: 15px;
+  transition: all 0.3s;
+}
+
+.breadcrumb .breadcrumb-content a:hover {
+  color: #f15e42;
+}

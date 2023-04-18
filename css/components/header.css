@@ -1,0 +1,27 @@
+.header {
+  z-index: 100;
+  background-color: #fff;
+}
+
+.header .navbar {
+  padding: 0;
+}
+
+.header .menu li {
+  display: inline-block;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.header .menu li a {
+  color: #000;
+}
+
+.header .menu-icon i {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.header .menu-icon a {
+  color: #000;
+}

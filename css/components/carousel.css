@@ -1,0 +1,23 @@
+.carousel {
+  margin-top: 100px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #d7d7d7;
+  background: transparent;
+  margin: 0 5px;
+}
+
+.carousel-indicators .active {
+  background: #adadad;
+  border: 2px solid #adadad;
+}

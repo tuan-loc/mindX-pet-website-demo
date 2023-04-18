@@ -1,0 +1,105 @@
+.card-product {
+  border: 1px solid #d7d7d7;
+  height: 440px;
+}
+
+.card-product .images {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-product .images img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-product .images .option {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  transition: all 0.3s;
+}
+
+.card-product .images .sale {
+  background-color: #ed1f1f;
+  color: #fff;
+  display: inline-block;
+  padding: 4px 15px;
+  font-size: 12px;
+  top: 10px;
+  right: 10px;
+  position: absolute;
+}
+
+.card-product:hover .option {
+  transform: translateY(-55px);
+}
+
+.card-product .line-product {
+  width: 1px;
+  height: 20px;
+  background: #d7d7d7;
+}
+
+.card-product .option button {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.card-product .option button i {
+  font-size: 18px;
+}
+
+.card-product .content {
+  overflow: hidden;
+  padding: 5px 15px;
+}
+
+.card-product .content .product-name {
+  font-size: 16px;
+}
+
+.card-product .content .price {
+  font-weight: 500;
+}
+
+.card-product .content .price .sale-price {
+  color: #f15e42;
+}
+
+.card-product .content .price .origin-price {
+  text-decoration: line-through;
+  color: #adadad;
+}
+
+.card-product .content .add-to-cart {
+  transform: translateY(50px);
+  transition: all 0.3s;
+}
+
+.card-product .content .add-to-cart button {
+  transition: all 0.3s;
+}
+
+.card-product .content .add-to-cart button:hover {
+  background-color: #f15e42;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.card-product .content button {
+  border: none;
+  outline: none;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f15e42;
+  border-bottom: 2px solid #f15e42;
+  padding: 5px 10px;
+}
+
+.card-product:hover .add-to-cart {
+  transform: translateY(5px);
+}
